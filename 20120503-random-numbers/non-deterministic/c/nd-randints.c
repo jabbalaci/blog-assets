@@ -11,7 +11,7 @@ int main()
     int UPPER = 10;
     int i;
 
-    srand((unsigned)time(NULL));
+    srand((unsigned)time(NULL));   /* use current time as seed */
 
     for (i = 0; i < 10; ++i)
     {
