@@ -3,6 +3,7 @@
 
 /**
  * generate random numbers from the interval [1, 10]
+ * in a non-deterministic way
  */
 
 int main()
