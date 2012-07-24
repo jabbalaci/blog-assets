@@ -17,7 +17,7 @@ import textwrap
 
 MAX = 196
 PAGE = random.randint(2, MAX)
-URL_POP = 'http://github.com/api/v2/json/repos/search/python?language=Python'
+URL_POP = 'https://api.github.com/legacy/repos/search/python?language=Python'
 URL_ALL = URL_POP + '&start_page={page}'.format(page=PAGE)
 WIDTH = 78
 
