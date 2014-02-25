@@ -1,7 +1,7 @@
 Blog-Assets
 ===========
 
-This repository contains source codes 
+This repository contains source codes
 for some posts on my blogs.
 
 My blogs:
