@@ -15,8 +15,8 @@ import urllib2
 import json
 import textwrap
 
-MAX = 196
-PAGE = random.randint(2, MAX)
+MAX = 10
+PAGE = random.randint(1, MAX)
 URL_POP = 'https://api.github.com/legacy/repos/search/python?language=Python'
 URL_ALL = URL_POP + '&start_page={page}'.format(page=PAGE)
 WIDTH = 78
