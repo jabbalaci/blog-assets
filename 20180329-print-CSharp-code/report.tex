@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%% Define your header here.
+%% See http://texblog.org/2007/11/07/headerfooter-in-latex-with-fancyhdr/
+\fancyhead[CO,CE]{C\# Summary}
+
+\usepackage[usenames,dvipsnames]{color}  %% Allow color names
+
+%% The listings package will format your source code
+\usepackage{listings}
+\lstdefinestyle{customasm}{
+  belowcaptionskip=1\baselineskip,
+  xleftmargin=\parindent,
+  language={[Sharp]C},
+  breaklines=true, %% Wrap long lines
+  basicstyle=\footnotesize\ttfamily,
+  commentstyle=\itshape\color{Gray},
+  stringstyle=\color{Black},
+  keywordstyle=\bfseries\color{OliveGreen},
+  identifierstyle=\color{blue},
+  xleftmargin=-8em,
+  showstringspaces=false
+}
+\begin{document}
+
+\lstinputlisting[style=customasm]{src.cs}
+
+\end{document}
