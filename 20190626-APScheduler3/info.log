@@ -1,0 +1,4 @@
+INFO  2019-06-26 12:48:49 scheduler.main() [83]: the scheduler is running...
+INFO  2019-06-26 12:50:49 scheduler.once_per_hour() [28]: 2 minutes passed
+INFO  2019-06-26 12:52:49 scheduler.once_per_hour() [28]: 2 minutes passed
+INFO  2019-06-26 12:54:49 scheduler.once_per_hour() [28]: 2 minutes passed
