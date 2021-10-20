@@ -7,6 +7,7 @@ output: pdf_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(reticulate)
 ```
 
 ## R Markdown
@@ -30,5 +31,13 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 ```{python}
-print("Hello Python!")
+print("Hello Python 3.10!")
 ```
+
+1 + 1 = `r 1+1`
+
+```{python include=FALSE}
+result = 1 + 1
+```
+
+1 + 1 = `r py$result`
