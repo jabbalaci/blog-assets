@@ -1,0 +1,2 @@
+# Elixir
+alias iex='iex -pa ~/.iex'
